@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(106, 142, 35, 0.597);
+}
+
+label {
+    color: rgb(0, 0, 0);
+    text-decoration: solid;
+}
+
+input {
+    color: rgb(143, 26, 252);
+    font-weight: 700;
+    text-decoration: solid;
+}
+
+
+#memeLibrary {
+    position: relative;
+}
+
+#top {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: -40px;
+    left: 15px;
+    font-weight: 500;
+    font-size: 40px;    
+    text-shadow: 2px 2px black;
+    font-family: "Copperplate", fantasy;
+}
+
+#bottom {
+    color: white;
+    position: absolute;
+    bottom: -30px;
+    left: 15px;
+    font-weight: 500;
+    font-size: 40px;
+    text-shadow: 2px 2px black;
+    font-family: "Copperplate", fantasy;
+}

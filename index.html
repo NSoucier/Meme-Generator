@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body id="pagebody">
+    <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Generate your next viral meme here!</h1>
+    <hr>
+    <form id="form">
+        <p>
+            <label for="">Top text: <input type="text" placeholder="Top text here" name="topText"></label>
+        </p>
+        <p>
+            <label for="">Bottom text: <input type="text" placeholder="Bottom text here" name="bottomText"></label>
+        </p>
+        <p>
+            <label for="">Paste image URL: <input type="text" placeholder="URL to image" name="userImage"></label>
+        </p>
+        
+        <input type="submit" value="Reveal my meme!" style="font-size: large;">
+        <h4>(Click on an existing meme to remove it from your list)</h4>
+        
+    </form>
+    <div id="memeLibrary"></div>
+
+<script src="app.js"></script>
+</body>
+
+</html>
